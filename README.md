@@ -1,7 +1,7 @@
-**Set up**
+#Set up
 
-To run:
-npmnpm test
+**To run: **
+npm test
 
-To see coverage:
+**To see coverage:**
 npm run coverage
