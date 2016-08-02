@@ -1,0 +1,23 @@
+{
+  "name": "mtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "blanket": "^1.1.6",
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1"
+  },
+  "config": {
+    "blanket": {
+      "pattern": ["index.js"],
+      "data-cover-never": "node_modules"
+    }
+  }
+}
