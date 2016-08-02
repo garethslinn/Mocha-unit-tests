@@ -1,6 +1,6 @@
 #Set up
 
-**To run: **
+**To run:**
 npm test
 
 **To see coverage:**
